@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@300;400&family=Schibsted+Grotesk&display=swap');
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;   
+    width:100%;
+}
+header nav a{
+    margin: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header a {
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.container img {
+    width: 90%;
+}
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+footer li {
+    list-style: none;
+}
+.galeria {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+.galeria img {
+    width: 100%;
+}
+.caja1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+.caja2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+.caja3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+.caja4 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+
+iframe {
+    margin: 20px 0px 20px 0px; 
+}
